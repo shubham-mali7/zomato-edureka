@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zomato Website</title>
+    <style></style>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    /> -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap"
+      rel="stylesheet"
+    /> -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="child1">
+        <div id="item1">
+          <h2 style="padding: 8px 16px; margin: auto">s!</h2>
+        </div>
+
+        <div id="same">Login</div>
+        <div class="right" id="special">Create an account</div>
+      </div>
+      <!-- <title><h2>Breakfast Places in Mumbai</h2></title> -->
+      <div class="break" style="font-family: 'Poppins', sans-serif">
+        <h2>Breakfast Places in Mumbai</h2>
+      </div>
+      <section class="child2">
+        <div class="cakery">
+          <h3 id="grand1" class="grandChild">The Big Chill Cakery</h3>
+          <p class="para">Fort</p>
+          <p class="adress">Near BKC Complex, Sandhurst Road, CSMT(East)</p>
+          <img src="zomato.png" alt="Food" />
+          <!-- <hr /> -->
+          <p class="text">
+            CUISINES: <br />
+            COST FOR TWO:
+          </p>
+          <p class="rate">
+            Bakery <br />
+            &#8377;700
+          </p>
+        </div>
+      </section>
+      <section class="child3">
+        <div class="bakeshop">
+          <h3 class="grandChild">The Bake Shop</h3>
+          <p class="para">Fort</p>
+          <p class="adress">Near GC Mall, Silicon Road, Bandra(East)</p>
+          <img src="zomato.png" alt="Food" />
+          <!-- <hr /> -->
+          <p class="text">
+            CUISINES: <br />
+            COST FOR TWO:
+          </p>
+          <p class="rate">
+            Bakery <br />
+            &#8377;700
+          </p>
+        </div>
+      </section>
+    </div>
+    <div class="aside">
+      <aside>
+        <section>
+          <div><h4>Filters</h4></div>
+          <!-- <p>Select Location</p> -->
+          <div>
+            <label for="location" class="left" id="option"
+              >Select Location <br /><br
+            /></label>
+            <input type="text" id="location" placeholder="Select Location" />
+          </div>
+        </section>
+        <p class="left">Cuisine</p>
+        <section>
+          <label class="check" for="NIndian">North Indian</label>
+          <input
+            type="checkbox"
+            name="North Indian"
+            id="NIndian"
+            class="box"
+          /><br />
+          <label class="check" for="SIndian">South Indian</label>
+          <input
+            type="checkbox"
+            name="South Indian"
+            id="SIndian"
+            class="box"
+            checked
+          />
+          <br />
+          <label class="check" for="China">Chinese</label>
+          <input
+            type="checkbox"
+            name="Chinese"
+            id="China"
+            class="box"
+            checked
+          />
+          <br />
+          <label class="check" for="Ffood">Fast Food</label>
+          <input type="checkbox" name="Fast Food" id="Ffood" class="box" />
+          <br />
+          <label class="check" for="Street">Street Food</label>
+          <input type="checkbox" name="Street Food" id="Street" class="box" />
+          <br />
+        </section>
+        <p class="left">Cost For Two</p>
+        <section class="amount">
+          <label class="price" for="1"> Less than 500</label>
+          <input type="radio" name="one" id="1" class="circle" /><br />
+          <label class="price" for="2"> 500 to 1000</label>
+          <input type="radio" name="two" id="2" class="circle" /><br />
+          <label class="price" for="3"> 1000 to 1500</label>
+          <input type="radio" name="three" id="3" class="circle" /><br />
+          <label class="price" for="4"> 1500 to 2000</label>
+          <input type="radio" name="four" id="4" class="circle" /><br />
+          <label class="price" for="5"> 2000+</label>
+          <input type="radio" name="five" id="5" class="circle" /><br />
+        </section>
+        <div><h4>Sort</h4></div>
+        <section class="end">
+          <label class="last" for="6"> Price low to high</label>
+          <input type="radio" name="low" id="6" class="goal" /><br />
+          <label class="last" for="7"> Price high to low</label>
+          <input type="radio" name="high" id="7" class="goal" /><br />
+        </section>
+      </aside>
+    </div>
+    <div class="pagearrow">
+      <h2>Page Ination</h2>
+      <div class="center">
+        <div class="pageination">
+          <a href="#">&#60;</a>
+          <a href="#" class="active" style="color: white">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#">6</a>
+          <a href="#">&#62;</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,359 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  /* border: 2px solid red; */
+  /* display: flex; */
+  flex-direction: column;
+}
+
+.child1 {
+  /* width: 1366px;
+  height: 80px; */
+  background-color: #ce0505;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 1263px;
+  height: 80px;
+}
+
+.child1 #item1 {
+  background-color: #ffffff;
+  width: 52px;
+  height: 52px;
+  border-radius: 100%;
+  margin: 15px 102px 13px;
+  color: #eb2929;
+}
+.right {
+  display: inline-block;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  position: relative;
+  left: 960px;
+  bottom: 71px;
+  padding: 11px 14px;
+  margin: 6px 110px;
+  color: #ffffff;
+  /* font: normal normal medium 16px/25px Poppins;; */
+}
+
+#same {
+  display: inline-block;
+  position: relative;
+  left: 960px;
+  bottom: 71px;
+  padding: 11px 14px;
+  margin: 0px -100px;
+  color: #ffffff;
+}
+.container #breakfast {
+  display: inline-block;
+  position: relative;
+  top: 117px;
+  left: 113px;
+  width: 514px;
+  height: 51px;
+}
+.break {
+  display: inline-block;
+  position: absolute;
+  /* top: 20px;
+  left: 113px;
+  width: 514px;
+  height: 51px; */
+  top: 117px;
+  left: 113px;
+  width: 514px;
+  height: 51px;
+  color: #192f60;
+  /* font: normal normal bold 36px/55px Poppins;  */
+  font-size: 23px;
+}
+
+.cakery {
+  display: inline-block;
+  /* position: relative; */
+  position: absolute;
+  /* top: 70px;
+  left: 315px;
+  width: 794px; */
+  height: 291px;
+  top: 250px;
+  left: 418px;
+  width: 794px;
+  /* height: 291px; */
+  /* border: 2px solid green; */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 6px 3px 6px #00000029;
+  opacity: 1;
+}
+.bakeshop {
+  display: inline-block;
+  /* position: relative; */
+  position: absolute;
+  /*   
+  top: 105px;
+  left: 315px;
+  width: 794px; */
+  height: 291px;
+  top: 455px;
+  left: 418px;
+  width: 794px;
+  /* height: 291px; */
+  margin: 130px 0px;
+
+  /* border: 2px solid blueviolet; */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 6px 3px 6px #00000029;
+  opacity: 1;
+}
+
+.aside {
+  display: inline-block;
+  /* border: 2px solid darkgoldenrod; */
+  position: absolute;
+  /* top: -640px;
+  left: 112px;
+  width: 260px;
+  height: 682px; */
+  top: 250px;
+  left: 113px;
+  width: 260px;
+  height: 682px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 6px 3px 6px #00000029;
+  opacity: 1;
+}
+.left {
+  display: inline-block;
+  position: relative;
+  top: -20px;
+  left: 25px;
+  /* width: 52px; */
+  height: 20px;
+  font-size: 14px;
+  color: #192f60;
+}
+
+h4 {
+  display: inline-block;
+  position: relative;
+  left: 25px;
+  width: 55px;
+  height: 25px;
+  font-size: 18px;
+  color: #192f60;
+  /* font-style: normal normal 600 18px/27px Poppins; */
+}
+#option {
+  display: inline-block;
+  font-size: 14px;
+  position: relative;
+  top: -15px;
+  left: 25px;
+  width: 106px;
+  height: 20px;
+}
+#location {
+  display: inline-block;
+  font-size: 14px;
+  position: relative;
+  top: -27px;
+  left: 25px;
+  width: 208px;
+  height: 35px;
+}
+.check {
+  display: inline-block;
+  position: relative;
+  top: -25px;
+  left: 52px;
+  /* width: 86px; */
+  height: 20px;
+  font-size: 14px;
+  color: #8c96ab;
+}
+.box {
+  display: inline-block;
+  position: relative;
+  left: 140px;
+  top: 10px;
+  width: 18px;
+  height: 18px;
+}
+#NIndian {
+  position: relative;
+  top: -20px;
+  left: -68px;
+}
+#SIndian {
+  position: relative;
+  top: -20px;
+  left: -70px;
+}
+#China {
+  position: relative;
+  top: -20px;
+  left: -40px;
+}
+#Ffood {
+  position: relative;
+  top: -20px;
+  left: -50px;
+}
+#Street {
+  position: relative;
+  top: -20px;
+  left: -62px;
+}
+.price {
+  display: inline-block;
+  position: absolute;
+  /* top: 579px; */
+  left: 25px;
+  /* width: 104px; */
+  height: 20px;
+  font-size: 14px;
+  color: #8c96ab;
+}
+.amount {
+  position: relative;
+  left: 25px;
+  top: -15px;
+}
+.circle {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  left: -6px;
+}
+.last {
+  display: inline-block;
+  position: absolute;
+  left: 25px;
+  height: 20px;
+  font-size: 14px;
+  color: #8c96ab;
+}
+.goal {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  left: -6px;
+}
+.end {
+  position: relative;
+  left: 25px;
+}
+user agent stylesheet section {
+}
+/* Hide the browser's default checkbox */
+/* input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+} */
+
+/* Create a custom checkbox */
+/* .checkmark {
+  position: absolute;
+  top: 146px;
+  left: 25px;
+  height: 25px;
+  width: 25px;
+  background-color: red;
+} */
+.grandChild {
+  display: inline-block;
+  position: relative;
+  top: 30px;
+  left: 185px;
+  width: 303px;
+  height: 43px;
+  color: #192f60;
+  font-size: 23px;
+  margin: 3px 3px 3px 3px;
+  font-weight: 600;
+}
+
+.para {
+  display: inline-block;
+  position: relative;
+  top: 55px;
+  left: -122px;
+  /* font-weight: 200; */
+  font-size: 16px;
+}
+.adress {
+  display: inline-block;
+  position: relative;
+  top: 77px;
+  left: -157px;
+  color: #636f88;
+  font-size: 16px;
+}
+img {
+  display: inline-block;
+  position: relative;
+  top: -30px;
+  width: 120px;
+  height: 120px;
+  left: 22px;
+  border-radius: 20px;
+}
+
+/* .rate {
+  display: inline-block;
+  position: absolute;
+  top: 397px;
+  left: 634px;
+  width: 251px;
+  height: 69px;
+} */
+
+.text {
+  display: inline-block;
+  position: relative;
+  top: 60px;
+  left: -89px;
+  color: #636f88;
+}
+.rate {
+  display: inline-block;
+  position: relative;
+  top: 56px;
+}
+.pageination {
+  display: inline-block;
+  position: absolute;
+  top: 893px;
+  left: 674px;
+}
+.pageination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 7px;
+  transition: background-color 0.3s;
+  border: 1px solid #8c96ab;
+  /* width: 8px; */
+  /* height: 10px; */
+  margin: 20px 0px 4px 6px;
+  font-size: 14px;
+  text-align: center;
+}
+.active {
+  background-color: #8c96ab;
+  border-radius: 5px;
+}
+.pageination a:hover:not(.active) {
+  background-color: rgb(235, 141, 141);
+  color: white;
+}
